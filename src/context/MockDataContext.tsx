@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { User, Mood, CheckIn, Family, FamilyMember } from '../data/mockData';
-import { mockUsers, mockCheckIns, mockFamily } from '../data/mockData';
+import { mockCheckIns, mockFamily } from '../data/mockData';
 
 interface MockDataContextType {
   currentUser: User | null;

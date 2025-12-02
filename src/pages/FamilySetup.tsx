@@ -5,7 +5,7 @@ import { useMockData } from '../context/MockDataContext';
 export const FamilySetup: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { family, setCurrentUser, currentUser } = useMockData();
+  const { family } = useMockData();
   const [isCreator, setIsCreator] = useState(true);
   const [code, setCode] = useState(family.code);
 
