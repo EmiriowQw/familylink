@@ -1,0 +1,17 @@
+{
+  "name": "Семейный Мост",
+  "short_name": "Семейный Мост",
+  "description": "Платформа для эмоциональной коммуникации в семье",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F4F6",
+  "theme_color": "#A78BFA",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
